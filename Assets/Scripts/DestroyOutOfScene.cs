@@ -11,13 +11,14 @@ public class DestroyOutOfScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //to be implemented.  
+        upperBound = 30.0f;
+        lowerBound = -10.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //to be implemented.  
+        //to be implemented.
     }
 
     void DestroyOutOfBounds()
