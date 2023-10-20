@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 3.0f;
+        speed = 5.0f;
         centerToEdge = 24f;
 
     }

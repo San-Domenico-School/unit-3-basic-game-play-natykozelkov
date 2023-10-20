@@ -7,7 +7,8 @@ public class DetectCollision : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        //to be implemented.  
+        Destroy(other.gameObject);
+        Destroy(gameObject);
     }
 
     // Start is called before the first frame update
